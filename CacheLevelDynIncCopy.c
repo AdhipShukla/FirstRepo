@@ -5,7 +5,7 @@
 #include <sys/time.h>
 
 int main(){
-    int size=64; // Number of iterations per jump size
+    int size=16; // Number of iterations per jump size
     int Jump=1; // Jump size
     int cnt=0; // Number of iterrations in each cycle
     int *Arr= calloc(size,sizeof(int));
