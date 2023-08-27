@@ -6,7 +6,7 @@
 
 int main(){
 
-    int size=512; // Number of iterations per jump size
+    int size=64; // Number of iterations per jump size
     int Jump=1; // Jump size
     int cnt=0; // Number of iterrations in each cycle
     int *Arr= calloc(size,sizeof(int));
